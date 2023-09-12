@@ -1,0 +1,97 @@
+body {
+    background-color: #e8eaed;
+    font-family: "shabnam";
+}
+.f15pt {
+    font-size: 15pt;
+}
+.content {
+    background: lightgreen;
+    padding: 10px;
+    font-size: 15pt;
+    color: whitesmoke;
+    width: 100%;
+}
+.voilet0 {
+    background-color: #333;
+}
+.voilet1 {
+    background-color: lightgreen;
+}
+.voilet2 {
+    background-color: #333;
+}
+textarea {
+    width: 100%;
+    min-height: 100px;
+}
+.encrypt {
+    font-size: 24pt;
+    background-color: lightblue;
+    border-radius: 3px;
+    border: 1px solid #6d0202;
+    color: black;
+    padding: 7px;
+    margin: 5px;
+    float: right;
+}
+.encrypt:hover {
+    background-color: whitesmoke;
+}
+
+.center {
+    width: 70%;
+    margin: auto;
+}
+#passcode {
+    border-radius: 3px;
+    padding: 6px;
+    border: 0px;
+    outline: none;
+}
+#passcode:focus {
+    border: 2px solid #530c96;
+}
+.top-relative {
+    top: 50px;
+    position: relative;
+}
+.top-bar {
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background-color: #fefefe;
+	padding: 5px;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.ablock {
+	text-decoration: none;
+    color: #7c0abe;
+    font-size: 15pt;
+}
+.h35px {
+	height: 35px;
+}
+.txtbld {
+    font-weight: bold;
+}
+.prb12px {
+	position: relative;
+	bottom: 10px;
+}
+.w35px {
+	width: 35px;
+}
+
+@font-face {
+  font-family: 'Shabnam';
+  src: url('https://sahand.storage.iran.liara.space/font/Shabnam.woff');
+  src: url('https://sahand.storage.iran.liara.space/font/Shabnam.woff') format('embedded-opentype'),
+     url('https://sahand.storage.iran.liara.space/font/Shabnam.woff') format('woff2'),
+     url('https://sahand.storage.iran.liara.space/font/Shabnam.woff') format('woff'),
+     url('https://sahand.storage.iran.liara.space/font/Shabnam.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

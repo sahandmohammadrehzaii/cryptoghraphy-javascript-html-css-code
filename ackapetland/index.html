@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>رمز نگاری</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="app.js"></script>
+</head>
+<body>
+        <center>
+    <div class="center top-relative">
+        <div class="content voilet1">
+            <span>لطفا رمز عبور را برای بازگشایی یا کد گشایی وارد کنید</span>
+            <input class="f15pt" type="password" id="passcode" placeholder="رمز عبور" />
+        </div>
+        <div class="content voilet2">
+            <span>متن را در اینجا قرار دهید یا تایپ کنید برای رمز نگاری کردن</span>
+            <textarea id="originalContent"></textarea>
+        </div>
+        <div class="content voilet0">
+            <span>فرم رمز گذاری شده</span>
+            <textarea id="encryptedContent" readonly></textarea>
+        </div>
+        <div class="content voilet0">
+            <span>فرم رمزگشایی شده</span>
+            <textarea id="decryptedContent" readonly></textarea>
+        </div>
+        <button class="encrypt" onclick="webdevencrypt.setEncrypt('originalContent','encryptedContent','passcode')">رمز گذاری کردن اطلاعات</button>
+        <button class="encrypt" onclick="webdevencrypt.setDecrypt('originalContent','decryptedContent','passcode')">رمز گشایی اطلاعات رمز گذاری شده</button>
+    </div>
+    </center>
+</body>
+
+</html>
